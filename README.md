@@ -35,17 +35,17 @@ Analyze historical coffee shop sales across multiple stores to identify:
 Dataset Description
 dataset contains:
 
-a. Date / Time
-b. Store ID
-c. Product ID / Name
-d. Units Sold
-e.Price / Revenue
+a. Date / Time<br/>
+b. Store ID<br/>
+c. Product ID / Name<br/>
+d. Units Sold<br/>
+e.Price / Revenue<br/>
 
 Methodology
 Data Collection & Loading
 Imported raw CSV files.
 
-Combined datasets if multiple (e.g. daily/weekly).
+Combined datasets if multiple (e.g. daily/weekly)
 
 Loaded into Excel (Power Query) or Python/R for exploratory analysis.
 
@@ -61,7 +61,7 @@ Computed total sales by store, product, date.
 
 Identified average sale value (ASV) per transaction.
 
-Examined temporal trends: dailyweek patterns, monthly peaks.
+Examined temporal trends: dailyweek patterns, monthly peaks.<br/>
 
 Visualization
 Created charts in Excel:
@@ -85,7 +85,7 @@ Average basket size
 
 Items per transaction
 
-Applied conditional formatting for trend spotting.
+Applied conditional formatting for trend spotting.<br/>
 
 Key Findings
 Seasonality: Highest sales in Q4 (holiday period), lowest in July–August.
@@ -96,7 +96,7 @@ Product Performance: Espresso & Lattes drive ~60% of revenue. Muffins perform we
 
 Store Comparison: Store 3 outperformed others by ~15% in average transaction value.
 
-Recommendations
+Recommendations<br/>
 Optimize staffing around 9am & 3pm peaks.
 
 Promote high-margin items (esp. during slow periods).
