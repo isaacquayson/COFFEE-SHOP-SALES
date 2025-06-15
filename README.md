@@ -41,71 +41,69 @@ c. Product ID / Name<br/>
 d. Units Sold<br/>
 e.Price / Revenue<br/>
 
-Methodology
-Data Collection & Loading
-Imported raw CSV files.
+Methodology<br/>
+1. Data Collection & Loading<br/>
+  a. Imported raw CSV files.<br/>
 
-Combined datasets if multiple (e.g. daily/weekly)
+  b. Loaded into Excel (Power Query) or Python/R for exploratory analysis.<br/>
 
-Loaded into Excel (Power Query) or Python/R for exploratory analysis.
+2. Data Cleaning<br/>
+   a. Handled missing values (e.g., filled, dropped, or flagged).<br/>
 
-Data Cleaning
-Handled missing values (e.g., filled, dropped, or flagged).
+   b. Standardized date formats and removed duplicates.<br/>
 
-Standardized date formats and removed duplicates.
+   c. Validated numerical ranges (prices, quantities).<br/>
 
-Validated numerical ranges (prices, quantities).
+3. Exploratory Data Analysis (EDA)<br/>
+   a. Computed total sales by store, product, date.<br/>
 
-Exploratory Data Analysis (EDA)
-Computed total sales by store, product, date.
+   b. Identified average sale value (ASV) per transaction.<br/>
 
-Identified average sale value (ASV) per transaction.
+   c. Examined temporal trends: dailyweek patterns, monthly peaks.<br/>
 
-Examined temporal trends: dailyweek patterns, monthly peaks.<br/>
+4. Visualization
+   a. Created charts in Excel<br/>
 
-Visualization
-Created charts in Excel:
+   b. Time series: daily/monthly revenue<br/>
 
-Time series: daily/monthly revenue
+   c. Pivot charts: store-wise comparisons<br/>
 
-Pivot charts: store-wise comparisons
+   d. Heatmaps: hourly vs. weekday sales<br/>
 
-Heatmaps: hourly vs. weekday sales
+   e. Applied filters and slicers for interactive dashboards.<br/>
 
-Applied filters and slicers for interactive dashboards.
+Analysis in Excel<br/>
+Pivot tables for summary stats.<br/>
 
-Analysis in Excel
-Pivot tables for summary stats.
+Calculated key metrics:<br/>
 
-Calculated key metrics:
+   1. Total revenue<br/>
 
-Total revenue
+   2. Average basket size<br/>
 
-Average basket size
+   3. Items per transaction<br/>
 
-Items per transaction
+   4. Applied conditional formatting for trend spotting.<br/>
 
-Applied conditional formatting for trend spotting.<br/>
+Key Findings<br/>
+1. Seasonality: Highest sales in Q4 (holiday period), lowest in July–August.<br/>
 
-Key Findings
-Seasonality: Highest sales in Q4 (holiday period), lowest in July–August.
+2. Daily Trends: Peak at 9am and 3pm; weekends show ~20% lift.<br/>
 
-Daily Trends: Peak at 9am and 3pm; weekends show ~20% lift.
+3. Product Performance: Espresso & Lattes drive ~60% of revenue. Muffins perform well mid-morning.<br/>
 
-Product Performance: Espresso & Lattes drive ~60% of revenue. Muffins perform well mid-morning.
-
-Store Comparison: Store 3 outperformed others by ~15% in average transaction value.
+4. Store Comparison: Store 3 outperformed others by ~15% in average transaction value.<br/>
 
 Recommendations<br/>
-Optimize staffing around 9am & 3pm peaks.
+1. Optimize staffing around 9am & 3pm peaks.<br/>
 
-Promote high-margin items (esp. during slow periods).
+2. Promote high-margin items (esp. during slow periods).<br/>
 
-Introduce combo deals (e.g. coffee + pastry discounts).
+3. Introduce combo deals (e.g. coffee + pastry discounts).<br/>
 
-Extend weekend hours or promotions to further leverage demand.
+4. Extend weekend hours or promotions to further leverage demand.<br/>
 
-Pilot seasonal drinks around Q4 to capitalize on holiday traffic.
+5. Pilot seasonal drinks around Q4 to capitalize on holiday traffic.<br/>
 
 
 
